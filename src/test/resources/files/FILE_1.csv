@@ -1,0 +1,16 @@
+Game;Player;PastGames;
+1;Player1;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player1. State Ended    10/08/2022 11:26:21 CODE1  Player : Player1. State Start;
+2;Player3;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player3. State Ended    15/08/2022 11:26:21 CODE1  Player : Player3. State Start;
+3;Player2;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player2. State Ended    16/08/2022 06:26:21 CODE1  Player : Player2. State Start;
+4;Player4;16/08/2022 23:35:43 AUTOMA_ABC  Player : Player4. State Ended    10/08/2022 18:26:21 CODE1  Player : Player4. State Start;
+5;Player2;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player3. State Ended    10/08/2022 11:26:21 CODE1  Player : Player3. State Start    16/08/2022 11:35:43 AUTOMA_ABC  Player : Player2. State Ended    10/08/2022 11:26:21 CODE1  Player : Player2. State Start;
+6;Player1;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player1. State Ended    10/08/2022 11:26:21 CODE1  Player : Player1. State Start;
+9;Player4;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player4. State Ended    10/08/2022 11:26:21 CODE1  Player : Player4. State Start;
+10;Player1;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player1. State Ended    10/08/2022 11:26:21 CODE1  Player : Player1. State Start;
+12;Player1;16/08/2022 11:35:43 AUTOMA_ABC  Player : PlayerNo1. State Ended    10/08/2022 11:26:21 CODE1  Player : PlayerNo1. State Start    16/08/2022 11:35:43 AUTOMA_ABC  Player : Player1. State Ended    10/08/2022 11:26:21 CODE1  Player : Player1. State Start;
+13;Player3;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player3. State Ended    10/08/2022 11:26:21 CODE1  Player : Player3. State Start;
+14;Player1;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player1. State Ended    10/08/2022 11:26:21 CODE1  Player : Player1. State Start;
+15;Player4;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player4. State Ended    10/08/2022 11:26:21 CODE1  Player : Player4. State Start;
+16;Player5;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player5. State Finish    10/08/2022 11:26:21 CODE1  Player : Player5. State Pause   16/08/2022 11:35:43 AUTOMA_ABC  Player : Player5. State Ended    10/08/2022 11:26:21 CODE1  Player : Player5. State Start;
+17;Player6;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player6. State Ended    10/08/2022 11:26:21 CODE1  Player : Player6. State Start;
+18;Player5;16/08/2022 11:35:43 AUTOMA_ABC  Player : Player5. State Ended    10/08/2022 11:26:21 CODE1  Player : Player5. State Start;

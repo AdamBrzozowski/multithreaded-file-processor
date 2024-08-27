@@ -1,0 +1,40 @@
+version: '1.0'
+
+services:
+  fileprocessor:
+    image: host/group/name:v1
+    container_name: name
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL}
+      - DATASOURCE_URL=jdbc:postgresql://url
+      - DATASOURCE_USER=${DATASOURCE_USER}
+      - DATASOURCE_PWD=${DATASOURCE_PWD}
+      - FILENAME_REGEX=${FILENAME_REGEX}
+      - MONITOR_DIR=${MONITOR_DIR}
+      - HOLIDAYS=${HOLIDAYS}
+      - FLYWAY_USER=${FLYWAY_USER}
+      - FLYWAY_PASSWORD=${FLYWAY_PASSWORD}
+    volumes:
+      - ./dir/:${WATCHER_FOLDER}
+
+  db:
+    image: 'postgres'
+    container_name: fileprocessor-db
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data/pgsql:/postgresql
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
